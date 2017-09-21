@@ -35,7 +35,7 @@ export default {
       imgSize: {
       	type: Array,
       	default: function () { 
-      		return ['30px', '30px']
+      		return [30, 30]
       	}
       },
       defaultColor: {

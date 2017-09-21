@@ -7,9 +7,7 @@
 ``` js
 # install dependencies
 npm install vue-look-images -S
-
-# serve with hot reload at localhost:8080
-npm run dev
+```
 
 ## 使用
 
@@ -35,7 +33,17 @@ Vue.use(vueLookImages)
 	:url-arr="array"
 	:show-one="true"
 	:align-row="true"
-	:img-size="['30px', '30px']"
-	:default-color="red">
+	:img-size="[30, 30]"
+	:default-color="#15A6BB">
 </vue-look-images>
 ```
+
+### Props
+
+|    name    |    Description   |   type   |default|
+| -----------------  | ---------------- | :--------: | :----------: |
+| url-arr       | 图片地址 |Array| []
+| show-one        | 只展示第一张图片 |Boolean | false
+| align-row        | 横排展示 |Boolean | true
+| img-size        | 展示图片大小 |Array | [30, 30]
+| default-color        | 激活图片边框颜色 |String | #15A6BB
