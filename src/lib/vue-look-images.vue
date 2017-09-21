@@ -17,6 +17,7 @@
 
 <script>
 export default {
+    name: 'vue-look-images',
     props: {
       urlArr: {
         type: Array,
