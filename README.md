@@ -4,7 +4,7 @@
 
 ## 安装
 
-``` js
+``` bash
 # install dependencies
 npm install vue-look-images -S
 ```
