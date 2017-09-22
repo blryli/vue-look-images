@@ -6,7 +6,6 @@
 ## demo演示
 
 [demo](https://blryli.github.io/vue-look-images/)
-```
 
 ## 安装
 
