@@ -1,7 +1,7 @@
 {
   "name": "vue-look-images",
   "description": "A Vue.js project",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "author": "blryli",
   "private": false,
   "license": "MIT",
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "vue": "^2.3.3",
-    "vue-look-images": "^1.0.4"
+    "vue-look-images": "^1.0.6"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
